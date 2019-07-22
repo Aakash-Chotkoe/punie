@@ -27,7 +27,7 @@ html {
 h2 {
     font-family: sans-serif;
     font-size: 150px;
-    color: rgba(10, 10, 8, 0.5);
+    color: rgba(180, 210, 128, 0.5);
     position: center;
     transform: translate(50%, 50%);
 }

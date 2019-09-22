@@ -26,15 +26,15 @@ html {
 
 h1 {
     font-family: sans-serif;
-    font-size: 150px;
+    font-size: 180px;
     color: #fff;
     position: center;
     transform: translate(50%, 50%);
 }
 
-h4 {
+h2 {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 200px;
     word-wrap: break-word;
     color: rgba(255, 250, 8, 0.5);
     position: center;

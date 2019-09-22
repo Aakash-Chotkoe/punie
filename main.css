@@ -15,8 +15,8 @@ html {
 }
 
 #particles-js {
-    height: 100%;
-    width: 100vh;
+    height: 100vh;
+    width: 100%;
     color: #fff;
     background: linear-gradient(-45deg, #9400D3, #FF00FF, #8B008B);
     position: fixed;

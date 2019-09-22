@@ -18,7 +18,7 @@ html {
     height: 100vh;
     width: 100%;
     color: #fff;
-    background: linear-gradient(-45deg, #9400D3, #FF00FF, #8B008B);
+    background: linear-gradient(-45deg, #9400D3, #FF00FF, #8B008B, #EE82EE, #4B0082);
     position: fixed;
     z-index: -10;
     top: 0;

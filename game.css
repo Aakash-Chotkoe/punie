@@ -1,0 +1,137 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 100%;
+}
+
+body {
+  background: url(ellie.jpg) 50% 50%;
+  background-size: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 26%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.container h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 8px;
+  font-style: italic;
+  color: #DCDCDC;
+}
+
+.count {
+  margin: 40px 0px;
+}
+
+.countd {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border: 5px solid;
+  margin: 0 8px;
+  font-size: 13px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: #48D134;
+}
+
+.countd span {
+  display: block;
+  font-size: 40px;
+  margin-top: 35px;
+}
+
+button {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.btn2 {
+  padding: 0px;
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background: none;
+  color: #ccc;
+  width: 190px;
+  height: 45px;
+  border: 3px solid #338033;
+  font-size: 20px;
+  border-radius: 50px;
+  transition: .6s;
+  overflow: hidden;
+}
+
+button:focus {
+outline: none
+}
+
+button:before {
+content: '';
+display: block;
+position: absolute;
+width: 60px;
+height: 100%;
+left:0;
+top: 0;
+opacity: .5s;
+filter: blur(30px);
+transform: translateX(-130px) skewX(-15deg)
+}
+
+button:after {
+content: '';
+display: block;
+position: absolute;
+background: #48D134;
+width: 50px;
+height: 100%;
+left:0;
+top: 0;
+opacity: 0s;
+filter: blur(30px);
+transform: translateX(-130px) scaleX(-15deg)
+}
+
+
+button:hover {
+  background: #48D134;
+  cursor: pointer;
+}
+
+button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .5;
+  transition: .7s;
+}
+
+button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}

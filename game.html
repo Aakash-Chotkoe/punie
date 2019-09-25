@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Last of Us 2</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="btn">
+        <button onclick="location.href='https://www.youtube.com/watch?v=XvG-EpPoCCA'" type="submit"> Watch Trailer </button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="btn2">
+        <button onclick="location.href='https://www.thelastofus.playstation.com/'" style="width:180px; padding:0;" type="submit"> Official Game Site </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1> THE LAST of US ii</h1>
+      <h2> Coming 21 feb 2020</h2>
+      <div class="count">
+        <div class="countd">
+          <span id="days">00</span>
+          DAYS
+        </div>
+
+        <div class="countd">
+          <span id="hours">00</span>
+          HOURS
+        </div>
+
+        <div class="countd">
+          <span id="minutes">00</span>
+          MINUTES
+        </div>
+
+        <div class="countd">
+          <span id="seconds">00</span>
+          SECONDS
+        </div>
+
+<script type="text/javascript">
+
+  var count = new Date("feb 21,2020 00:00:00").getTime();
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var d = count - now;
+
+    var days = Math.floor(d/(1000*60*60*24));
+    var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+    var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+    var seconds = Math.floor((d%(1000*60))/1000);
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    if(d <= 0){
+      clearInterval(x);
+    }
+
+  },1000);
+
+  </script>

@@ -30,15 +30,27 @@ h1 {
     font-family: sans-serif;
     font-size: 550%;
     color: #8B008B;
-    position: relative;
+    position: absolute;
     transform: translate(50%, 50%);
 }
 
 h2 {
     font-family: sans-serif;
-    font-size: 200px;
+    font-size: 120%;
     word-wrap: break-word;
-    color: rgba(255, 250, 8, 0.5);
+    color: violet;
     position: center;
+    text-align:center;
+    border:2px double white;
+    border-radius: 30px;
     transform: translate(50%, 50%);
+}
+
+a {
+color:white;
+font-size: 140%;
+background-color:rgba(0,0,0,0.9);
+border: 4px dashed white;
+text-align:center;
+border-radius: 10px;
 }

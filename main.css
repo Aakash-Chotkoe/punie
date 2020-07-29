@@ -28,12 +28,12 @@ html {
 
 a {
     font-family: sans-serif;
-    font-size: 560%;
+    font-size: 760%;
     word-wrap: break-word;
-    color: violet;
+    color: white;
     margin-top:500px;
     background-color:rgba(0,0,0,0.8);
-    padding:10px;
+    padding:40px 10px;
     position: absolute;
     text-align:center;
     border:2px double white;
